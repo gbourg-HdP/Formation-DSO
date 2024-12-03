@@ -44,21 +44,40 @@ Avec CTRL+C il est possible d'arréter l'exécution de l'application dans votre 
 
 > :mag: Imaginez une attaque exploitant cette vulnérabilité.
 
+Execution d'une commande powershell qui installe un payload (malware ou backdoor)
+
 > :mag: Quel pourrait être le niveau de criticité de cette vulnérabilité  ? (LOW/MEDIUM/HIGH/CRITICAL)
+
+CRITICAL
 
 > :mag: Quel est le composant vulnérable ?
 
+pyyaml dans application.py
+
 > :mag: Quel est le nom de la vulnérabilité ? (CVE-XXXX-XXXX)
+
+CVE-2020-1747
 
 > :mag: Quel est le niveau réel de criticité de cette vulnérabilité ? D'après vous, pourquoi a-t-elle ce niveau ?
 
+Elle est exploitable sur le site web (ouvert à internet), ne nécessite aucun compte privilégié, permet une RCE
+
 > :mag: A partir de quelle version cette vulnérabilité est-elle corrigée ?
+
+5.3.1
 
 > :mag: Qu'est-ce qu'une CWE ?
 
+common weakness enumeration, un index de référencement des type de vulnérabilité
+
 > :mag: Quelle est la CWE liée à cette vulnérabilité ?
 
+CWE-20 Improper Input Validation
+
 > :mag: Quelle est la différence entre CWE et CVE ?
+
+CWE est une vulnérabilité
+CVE est un logiciel ou une version spécifique qui est vulnérable à une CWE
 
 
 ### IV - Correction de la vulnérabilité

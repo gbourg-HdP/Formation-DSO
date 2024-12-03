@@ -1,8 +1,4 @@
 colorama==0.4.6
 Flask==3.1.0
-<<<<<<< HEAD
-PyYAML==5.3.1
-=======
 PyYAML==5.3
 pipreqs==0.5.0
->>>>>>> 6e0578198342a47fe680241a0ca91babe04e428b
